@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&family=Merienda&display=swap');
+
+.SinglePage{
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  row-gap: 5px;
+  width: 70%;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.7);
+  .item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    .price{
+      color: goldenrod;
+      font-weight: lighter;
+      font-size: 30px;
+    }
+    span{
+      font-size: 30px;
+      color: gray;
+    }
+    .star{
+      width: 30px;
+      height: 30px;
+    }
+    img{
+      width: 300px;
+      height: 300px;
+      transition: 0.5s;
+    }
+
+  }
+  .description{
+    padding: 0 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: space-around;
+    span{
+      color: silver;
+      font-size: 20px;
+      font-family: 'Anek Telugu', sans-serif;
+    }
+    .buy{
+      width: 120px;
+      height: 40px;
+      border-radius: 3px;
+      font-size: 18px;
+      border: 0;
+      background-color:goldenrod;
+    }
+
+    .category{
+      font-size: 20px;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+}
